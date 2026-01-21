@@ -58,11 +58,29 @@ body{
     cursor: pointer;
 }
 .section3{
-    display: flex;
+ 
     justify-content: space-between;
     align-items: center;
     padding: 100px 80px 0; 
 }
-.section3{
+.section3 h1{
     color: #03045E;   
+}
+.section3Ded{
+    font-size: 24px;
+    color: #03045E;
+}
+.liste {
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.liste h3 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #03045e;
+  margin-bottom: 8px;
+}
+.liste p {
+  font-size: 20px;
+  color: #03045E;
 }
