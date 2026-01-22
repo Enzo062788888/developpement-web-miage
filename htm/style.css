@@ -25,7 +25,8 @@ body{
     justify-content: space-between;
     align-items: center;     
     min-height: 50vh;
-    padding: 100px 80px 0;    
+    padding: 100px 0px 0;
+    margin-left: 20px;    
 }
 .section2droite img {
     width: 500px;
@@ -61,7 +62,8 @@ body{
  
     justify-content: space-between;
     align-items: center;
-    padding: 100px 80px 0; 
+    padding: 100px 0px 0;
+    margin-left: 20px; 
 }
 .section3 h1{
     color: #03045E;   
@@ -83,4 +85,104 @@ body{
 .liste p {
   font-size: 20px;
   color: #03045E;
+}
+.section4{
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px 0; 
+    margin-left: 20px;
+}
+.section4Work {
+color: #03045E;
+}
+.section4Pro {
+    font-size: 24px;
+    color: #03045E;
+    margin-top: 20px;
+}
+.section5
+{
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 100px 0px 0; 
+    display: flex;
+    margin-left: 20px;
+}
+.section5 img {
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    
+}
+
+
+.image5pro h3 {
+    color: #03045E;
+    margin-top: 20px;
+}
+.image5pro p {
+    font-size: 24px;
+    color: #03045E;
+    margin-top: 20px;
+}
+.image5pro2 h3 {
+    color: #03045E;
+    margin-top: 20px;
+
+}
+.image5pro2 p {
+    font-size: 24px;
+    color: #03045E;
+    margin-top: 20px;
+}
+.section6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px 0; 
+    margin-left: 20px;
+}  
+.section6 h1 {
+    color: #03045E;
+        margin-bottom: 20px;
+} 
+.section6 img {
+    width: 500px;
+    height: auto;
+}
+.section6 p {
+    font-size: 24px;
+    color: #03045E;
+    margin-bottom: 22px;
+}
+
+
+.title {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.card {
+    width: 220px;
+    height: 120px;
+    background: #f5eb84;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.4;
+    border-bottom: 3px solid transparent;
+}
+
+.card:hover {
+    opacity: 1;
+    border-bottom: 3px solid #00c16a;
+}
+.card img {
+    max-width: 50px;
 }
